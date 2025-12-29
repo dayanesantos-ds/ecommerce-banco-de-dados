@@ -1,6 +1,8 @@
 ## Refinamento de Projeto Conceitual de Banco de Dados (E-commerce)
 O projeto consiste no refinamento de um modelo conceitual de banco de dados para um sistema de E-commerce, conforme requisitos definidos no desafio da DIO. O objetivo foi melhorar o modelo existente, garantindo maior consistência, redução de redundância e aderência às regras de negócio.
 
+![Página 1](https://github.com/dayanesantos-ds/ecommerce-banco-de-dados/blob/main/imagens/diagrama-ecommerce.png.png)
+![Página 1](https://github.com/dayanesantos-ds/ecommerce-banco-de-dados/blob/main/imagens/descri%C3%A7%C3%A3o%20do%20desafio.png)
 
 ### 🎯 Objetivo do Refinamento
 O modelo foi ajustado para atender aos seguintes pontos:
@@ -15,30 +17,49 @@ Cliente_PJ
 ### Pagamento
 Um cliente pode cadastrar várias formas de pagamento
 Cada forma possui informações como:
+
 tipo
 número do cartão
+
 nome impresso no cartão
+
 validade
+
 bandeira
+
 Relacionamento: 1 Cliente → N Formas de Pagamento
 
 ### Entrega
 A entrega possui:
+
 status
+
 código de rastreio
+
 datas de envio e entrega
+
 transportadora
+
 Criada como entidade separada ligada ao Pedido
 
 ### 🧩 Principais Entidades
+
 Cliente
+
 Cliente_PF
+
 Cliente_PJ
+
 Produto
+
 Pedido
+
 Forma de Pagamento
+
 Entrega
+
 Fornecedor
+
 Estoque
 
 ### 🗂️ Arquivos do Repositório
