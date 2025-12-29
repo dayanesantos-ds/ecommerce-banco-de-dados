@@ -2,7 +2,7 @@
 O projeto consiste no refinamento de um modelo conceitual de banco de dados para um sistema de E-commerce, conforme requisitos definidos no desafio da DIO. O objetivo foi melhorar o modelo existente, garantindo maior consistência, redução de redundância e aderência às regras de negócio.
 
 
-###🎯 Objetivo do Refinamento
+### 🎯 Objetivo do Refinamento
 O modelo foi ajustado para atender aos seguintes pontos:
 Cliente PJ e PF
 Uma conta pode ser Pessoa Física ou Pessoa Jurídica, mãs não pode ser os dois tipos ao mesmo tempo
