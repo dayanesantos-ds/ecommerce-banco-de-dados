@@ -49,5 +49,5 @@ README.md → documentação do projeto
 O refinamento garantiu:
 melhoria na organização do modelo de dados, eliminação de redundâncias, implementação correta de regras de negócio, uso adequado de especialização PF / PJ, modelagem alinhada ao cenário real de E-commerce
 
-###🚀 Tecnologias Utilizadas
+### 🚀 Tecnologias Utilizadas
 MySQL Workbench (Modelagem EER)
